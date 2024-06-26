@@ -12,7 +12,14 @@ print on the screen the sum of those 2 numbers
 
 // Exercise 2: Check if a Number is Even or Odd
 
-(Your pseudocode here)
+number = input value
+if number % 2 == 0
+return true or false
+
+ask for a number
+divide the number given by 2
+use the modulo operator to find the remainder
+if the remainder is 0 number is even and if anything else number is odd
 
 // Exercise 3: 
 Write pseudo code that will perform the following.    
@@ -22,6 +29,14 @@ b) Calculate the average of the five numbers.
 c) Find the smallest (minimum) and largest (maximum) of the five entered numbers.
 d) Write out the results found from steps b and c with a message describing what they are
 
-(Your pseudocode here)
+num1 = userinput1, num2 = userinput2, num3 = userinput3, num4 = userinput4, num5 = userinput5
+
+average = (num1 + num2 + num3 + num4 + num5)/5
+add all the numbers into a list
+sort the list
+minimum = first number in list
+maximum = last number in list
+
+The average of the 5 numbers given is + average + .The smallest number out of all numbers is + minimum + and largest number is + maximum +.
 
 -- END --
